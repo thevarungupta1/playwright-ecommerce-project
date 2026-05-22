@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+}
+
+.header {
+  background: #222;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}

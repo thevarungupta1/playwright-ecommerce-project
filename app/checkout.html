@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout - Mini Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <strong>Mini Shop</strong>
+  </div>
+
+  <div class="container">
+    <h1>Checkout</h1>
+
+    <input id="name" placeholder="Full Name">
+    <input id="address" placeholder="Address">
+
+    <select id="payment">
+      <option value="">Select Payment</option>
+      <option value="cod">Cash on Delivery</option>
+      <option value="upi">UPI</option>
+      <option value="card">Card</option>
+    </select>
+
+    <button id="place-order-btn" onclick="placeOrder()">Place Order</button>
+
+    <p id="checkout-error" class="error"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
